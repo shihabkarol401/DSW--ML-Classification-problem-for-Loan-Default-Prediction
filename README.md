@@ -3,17 +3,6 @@ Classification Problem for Loan Default Prediction
 NBFC:
 This repository contains a project for predicting loan approvals based on customer data. The project involves Exploratory Data Analysis (EDA) to uncover insights and relationships within the data and the implementation of three machine learning models: Random Forest, Logistic Regression, and AdaBoost. The model with the highest accuracy is selected for deployment.
 
-Table of Contents:
-Introduction
-Project Workflow
-Dataset Description 
-EDA (Exploratory Data Analysis) 
-Machine Learning Models 
-Model Selection 
-Results
-How to Run Dependencies 
-
-Conclusion:
 Introduction:
 The goal of this project is to predict whether a loan application will be approved based on various applicant details. The prediction can assist financial institutions in making informed decisions efficiently.
 
