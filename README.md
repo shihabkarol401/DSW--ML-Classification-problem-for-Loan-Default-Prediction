@@ -3,8 +3,8 @@ This repository contains a project for predicting loan approvals based on custom
 
 # Project Workflow
 1. Data preprocessing: Handle missing values, encode categorical variables, and scale numerical features.
-2. Exploratory Data Analysis: Identify patterns and relationships in the dataset.
-3. Model training: Train three models (Random Forest, Logistic Regression, AdaBoost).
+2. Exploratory Data Analysis (EDA): Identify patterns and relationships in the dataset.
+3. Model training: Train three models (i.e., Random Forest, Logistic Regression, AdaBoost).
 4. Model evaluation: Compare model performance metrics.
 5. Model selection: Select the model with the highest accuracy.
    
@@ -19,16 +19,16 @@ The dataset contains the following features:
 # EDA (Exploratory Data Analysis)
 The EDA phase involves:
 1. Distribution analysis of numerical and categorical features.
-2. Identifying correlations between features and the target variable./
+2. Identifying correlations between features and the target variable.
 3. Handling outliers and missing data.
 4. Visualizing important patterns using plots such as histograms, box plots, and scatter plots.
    
 # Machine Learning Models
 The following models were implemented:
-1. AdaBoost: Achieved an accuracy of 77%
+1. Random Forest: It ranges between 76-80%
 2. Logistic Regression: Achieved an accuracy of 74%.
-3. Random Forest: It ranges between 76 80%
+3. AdaBoost: Achieved an accuracy of 77%
 
 # Model Selection
 
-A separate file, model_selection.ipynb, is included in this repository. This script automatically selects the model with the highest accuracy, As their are minor differnce in a accuray of random forest and adaboost so when randomforest accuracy is 76 then it will select the Adaboost as preferred model. if its greater than 76% then it will select Random forest.
+A separate file, model_selection.ipynb, is included in this repository. This script automatically selects the model with the highest accuracy, As there are minor differnces in accuracy of Random Forest and AdaBoost, so when Random Forest accuracy is 76%, it will select the Adaboost as preferred model. If it is greater than 76%, it will select Random forest.
